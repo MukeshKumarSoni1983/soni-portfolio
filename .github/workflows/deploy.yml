@@ -13,7 +13,9 @@ jobs:
       - name: Build
         run: |
           REPO="${GITHUB_REPOSITORY#*/}"
-          case "$REPO" in *.github.io) BASE="/";; *) BASE="/$REPO/";; esac
+          OWNER="${GITHUB_REPOSITORY%/*}"
+          if [ "${REPO,,}" = "${OWNER,,}.github.io" ]; then BASE="/"; else BASE="/$REPO/"; fi
+          echo "Building with base href $BASE"
           npx ng build --base-href "$BASE"
       - uses: actions/upload-pages-artifact@v3
         with: { path: dist/portfolio/browser }
