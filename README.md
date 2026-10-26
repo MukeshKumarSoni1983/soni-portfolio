@@ -37,3 +37,4 @@ Then repo → Settings → Pages → Source: **GitHub Actions**. Every push to `
 Shows time, IP, country, region, city, postal code, timezone, coordinates, network/ISP, browser/device and referrer. It is not linked anywhere on the site.
 Location is approximate (from the IP). Keep the privacy line in the footer.
 "# Mukesh-Kumar-Portfolio" 
+"# soni-portfolio" 
