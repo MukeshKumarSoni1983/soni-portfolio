@@ -1,0 +1,12 @@
+name = "portfolio-visits"
+main = "src/index.js"
+compatibility_date = "2024-09-01"
+
+[vars]
+# Your GitHub Pages ORIGIN only (no path), e.g. https://mukesh-kumar1983.github.io
+ALLOWED_ORIGIN = "https://YOUR-USERNAME.github.io"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "portfolio-visits"
+database_id = "PASTE-ID-FROM-wrangler-d1-create"

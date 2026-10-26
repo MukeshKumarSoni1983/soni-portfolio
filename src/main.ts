@@ -1,0 +1,5 @@
+import { bootstrapApplication } from '@angular/platform-browser';
+import { provideHttpClient, withFetch } from '@angular/common/http';
+import { AppComponent } from './app/app.component';
+console.log('[portfolio] build 3 loaded');
+bootstrapApplication(AppComponent, { providers: [provideHttpClient(withFetch())] }).catch(console.error);
