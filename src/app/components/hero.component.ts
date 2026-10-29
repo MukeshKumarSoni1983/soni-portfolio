@@ -10,5 +10,5 @@ import { Component } from '@angular/core';
 <div class="stats"><div><b>19+ Years</b>.NET &amp; web architecture</div><div><b>Karachi, PK</b>Available remote</div><div><b>MCTS</b>Microsoft certified</div><div><b>Angular .NET</b>Core disciplines</div></div>
 </div></header>
 <section id="profile"><div class="wrap"><div class="label">01 — Profile</div><h2>Summary</h2>
-<p class="lead">Microsoft Certified Technology Specialist with over 16 years of experience architecting and delivering high-performance, scalable web applications and business platforms using .NET, Angular and cloud-ready solutions. A proven leader in cross-functional projects, performance optimization and data-driven solutions, now extending into React with AI-assisted development.</p></div></section>` })
+<p class="lead">Microsoft Certified Technology Specialist with over 19 years of experience architecting and delivering high-performance, scalable web applications and business platforms using .NET, Angular and cloud-ready solutions. A proven leader in cross-functional projects, performance optimization and data-driven solutions, now extending into React with AI-assisted development.</p></div></section>` })
 export class HeroComponent {}
