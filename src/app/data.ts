@@ -1,6 +1,6 @@
-export const SKILLS = [
- { t: 'Frontend', d: 'Angular 17, TypeScript, JavaScript, Bootstrap, CSS, LESS, Responsive Design, Cross-browser Compatibility' },
- { t: 'Backend & APIs', d: 'ASP.NET Core Web API, MVC, Web Forms, .NET / .NET Core, REST, JWT, Node.js, EF Core, IIS' },
+m  export const SKILLS = [
+ { t: 'Frontend', d: 'Angular V2 - V17, TypeScript, JavaScript, Bootstrap, CSS, LESS, Responsive Design, Cross-browser Compatibility' },
+ { t: 'Backend & APIs', d: 'ASP.NET Core Web API, MVC, Web Forms, .NET / .NET Core, REST, Windows Services, JWT, OAUTH, RabbitMQ, Microservices, Node.js, EF Core, IIS' },
  { t: 'Data & Tools', d: 'SQL Server, Visual Studio 2017/2022/2026, GitHub, TFS, SVN' },
  { t: 'Testing', d: 'xUnit, Integration Testing, Jasmine / Karma' },
  { t: 'Platforms', d: 'SharePoint 2010, Document Management Systems, SaaS Application Development' },
